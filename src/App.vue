@@ -9,7 +9,7 @@
     <div class="container">
       <div v-if="!gameLVLDuration">
         <input type="button" value="Easy" @click="setGameDuration(1500)">
-        <input type="button" value="Medium" @click="setGameDuration(100)">
+        <input type="button" value="Medium" @click="setGameDuration(1000)">
         <input type="button" value="Hard" @click="setGameDuration(400)">
       </div>
       <div v-show="gameLVLDuration" class="grid">
